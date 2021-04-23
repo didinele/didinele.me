@@ -1,5 +1,5 @@
 FROM node:16-alpine
-LABEL name "project my-microservice builder"
+LABEL name "didinele.me auth builder"
 
 WORKDIR /opt/build
 
@@ -11,22 +11,22 @@ RUN curl -L https://unpkg.com/@pnpm/self-installer | node
 
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml tsconfig.json ./
 
-COPY libs/example/package.json ./libs/example/
-COPY services/my-microservice/package.json ./services/my-microservice/package.json
+COPY libs/rest/package.json ./libs/rest/
+COPY services/auth/package.json ./services/auth/package.json
 
 RUN pnpm i --frozen-lockfile && apk del .build-deps
 
-COPY libs/example ./libs/example
-COPY services/my-microservice ./services/my-microservice
+COPY libs/rest ./libs/rest
+COPY services/auth ./services/auth
 
 RUN pnpm run build && pnpm prune --prod
 
 FROM node:16-alpine
-LABEL name "project my-microservice"
+LABEL name "didinele.me auth"
 LABEL version "0.1.0"
 
-WORKDIR /usr/my-microservice
+WORKDIR /usr/auth
 
 COPY --from=0 /opt/build ./
 
-CMD ["node", "--enable-source-maps", "services/my-microservice/dist/index.js"]
+CMD ["node", "--enable-source-maps", "services/auth/dist/index.js"]

@@ -1,8 +1,8 @@
 version: "3.7"
 
 services:
-  my-microservice:
+  auth:
     build:
       context: ./
-      dockerfile: ./docker/my-microservice/Dockerfile
+      dockerfile: ./docker/auth/Dockerfile
     restart: unless-stopped

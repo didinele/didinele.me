@@ -1,24 +1,24 @@
 {
   "$schema": "http://json.schemastore.org/package",
-  "name": "project",
+  "name": "didinele.me",
   "version": "0.1.0",
   "description": "Something cool",
   "scripts": {
-    "build": "pnpm recursive run build --filter @project/*",
-    "lint": "pnpm recursive run lint --filter @project/*",
-    "lint:ci": "pnpm lint --parallel --filter @project/*",
+    "build": "pnpm recursive run build --filter @didinele.me/*",
+    "lint": "pnpm recursive run lint --filter @didinele.me/*",
+    "lint:ci": "pnpm lint --parallel --filter @didinele.me/*",
     "test": "jest",
     "test:ci": "jest --ci --no-stack-trace --verbose"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/didinele/typescript-docker-monorepo.git"
+    "url": "git+https://github.com/didinele/didinele.me.git"
   },
   "author": "didinele",
   "bugs": {
-    "url": "https://github.com/didinele/typescript-docker-monorepo/issues"
+    "url": "https://github.com/didinele/didinele.me/issues"
   },
-  "homepage": "https://github.com/didinele/typescript-docker-monorepo#readme",
+  "homepage": "https://github.com/didinele/didinele.me#readme",
   "devDependencies": {
     "@babel/core": "^7.13.16",
     "@babel/generator": "^7.13.16",
