@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json.schemastore.org/package",
+  "name": "@didinele.me/injection",
+  "description": "Injection tokens and utilities for the backend, using tsyringe",
+  "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
+  "version": "0.1.0",
+  "scripts": {
+    "lint": "eslint src --ext .ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/didinele/didinele.me.git"
+  },
+  "author": "didinele",
+  "bugs": {
+    "url": "https://github.com/didinele/didinele.me/issues"
+  },
+  "homepage": "https://github.com/didinele/didinele.me#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "tslib": "^2.2.0",
+    "tsyringe": "^4.5.0"
+  }
+}
