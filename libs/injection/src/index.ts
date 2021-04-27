@@ -8,6 +8,7 @@ export const kLogger = Symbol('logger instance');
 
 export interface Config {
   rootDomain: string;
+  authDomain: string;
   apiDomain: string;
   dashDomain: string;
   discordClientId: `${bigint}`;
@@ -23,6 +24,7 @@ export interface Config {
 export const initConfig = () => {
   const config: Config = {
     rootDomain: process.env.ROOT_DOMAIN!,
+    authDomain: process.env.AUTH_DOMAIN!,
     apiDomain: process.env.API_DOMAIN!,
     dashDomain: process.env.DASH_DOMAIN!,
     discordClientId: process.env.DISCORD_CLIENT_ID as `${bigint}`,

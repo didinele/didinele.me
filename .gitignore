@@ -5,6 +5,8 @@ coverage
 
 node_modules
 
+docker-compose.config.yml
+
 .vscode
 *.log
 doc

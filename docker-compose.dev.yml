@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  auth:
+    environment:
+      ROOT_DOMAIN: "http://localhost"
+      AUTH_DOMAIN: "http://localhost:3000"
+      API_DOMAIN: "http://localhost:3001"
+      NODE_ENV: "dev"

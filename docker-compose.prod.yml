@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  auth:
+    environment:
+      ROOT_DOMAIN: "https://didinele.me"
+      AUTH_DOMAIN: "https://auth.didinele.me"
+      API_DOMAIN: "https://api.didinele.me"
+      NODE_ENV: "prod"
