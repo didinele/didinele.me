@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "marine/react",
+    "../../.eslintrc.json"
+  ],
+  "rules": {
+    "@typescript-eslint/naming-convention": "off",
+    "react/jsx-filename-extension": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-indent": "off",
+    "react/jsx-indent-props": "off",
+    "react/prop-types": "off",
+    "react/jsx-max-props-per-line": "off",
+    "react/jsx-key": "off"
+  }
+}

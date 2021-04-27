@@ -24,3 +24,17 @@ services:
     environment:
       DISCORD_SCOPES: "identify,email"
     restart: unless-stopped
+    expose:
+      - "3000"
+
+  personal:
+    build:
+      context: ./
+      dockerfile: ./docker/personal/Dockerfile
+    restart: unless-stopped
+    expose:
+      - "4200"
+
+volumes:
+  postgres-data:
+    name: "didinele.me-postgres-data"

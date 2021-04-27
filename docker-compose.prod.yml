@@ -7,3 +7,6 @@ services:
       AUTH_DOMAIN: "https://auth.didinele.me"
       API_DOMAIN: "https://api.didinele.me"
       NODE_ENV: "prod"
+
+  personal:
+    command: "pnpm run start --filter @didinele.me/personal"

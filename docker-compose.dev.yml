@@ -7,3 +7,14 @@ services:
       AUTH_DOMAIN: "http://localhost:3000"
       API_DOMAIN: "http://localhost:3001"
       NODE_ENV: "dev"
+    ports:
+      - "3000:3000"
+
+  personal:
+    volumes:
+      - ./services/dash/src:/usr/dash/services/dash/src
+      - ./services/dash/.next:/usr/dash/services/dash/.next
+      - ./services/dash/public:/usr/dash/services/dash/public
+    ports:
+      - "4200:4200"
+    command: "pnpm run dev --filter @didinele.me/personal"
