@@ -1,0 +1,120 @@
+baseURL: "https://didinele.me"
+title: DD's blog
+paginate: 5
+theme: hugo-PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production
+    description: "Personal blog - https://github.com/didinele/didinele.me"
+    author: didinele
+
+    defaultTheme: auto
+    ShowShareButtons: false
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: true
+
+    homeInfoParams:
+        Title: "Hi, I'm DD."
+        Content: >
+            - I'm a backend developer heavily interested in all things anti-abuse tooling for online communities.
+
+            -
+
+            - I lead development over at [ChatSift](https://github.com/chatsift), an org dedicated to building open source Discord tools.
+
+            -
+
+            - I'm also a big advocate for open source and currently help maintain [discord.js](https://github.com/discordjs/discord.js),
+              the biggest library for the Discord API.
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/didinele"
+
+    editPost:
+        URL: "https://github.com/didinele/didinele.me/tree/main/content"
+        Text: "Suggest Changes"
+        appendFilePath: true 
+
+    assets:
+        disableHLJS: true
+
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
