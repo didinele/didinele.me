@@ -4,6 +4,43 @@
     <title>Tags on DD&#39;s blog</title>
     <link>https://didinele.me/tags/</link>
     <description>Recent content in Tags on DD&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://didinele.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 06 Feb 2023 19:28:24 +0200</lastBuildDate><atom:link href="https://didinele.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>algorithms</title>
+      <link>https://didinele.me/tags/algorithms/</link>
+      <pubDate>Mon, 06 Feb 2023 19:28:24 +0200</pubDate>
+      
+      <guid>https://didinele.me/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>math</title>
+      <link>https://didinele.me/tags/math/</link>
+      <pubDate>Mon, 06 Feb 2023 19:28:24 +0200</pubDate>
+      
+      <guid>https://didinele.me/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optimization</title>
+      <link>https://didinele.me/tags/optimization/</link>
+      <pubDate>Mon, 06 Feb 2023 19:28:24 +0200</pubDate>
+      
+      <guid>https://didinele.me/tags/optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://didinele.me/tags/programming/</link>
+      <pubDate>Mon, 06 Feb 2023 19:28:24 +0200</pubDate>
+      
+      <guid>https://didinele.me/tags/programming/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

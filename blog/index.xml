@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>DD&#39;s blog</title>
-    <link>https://didinele.me/</link>
-    <description>Recent content on DD&#39;s blog</description>
+    <title>Blogs on DD&#39;s blog</title>
+    <link>https://didinele.me/blog/</link>
+    <description>Recent content in Blogs on DD&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 Feb 2023 19:28:24 +0200</lastBuildDate><atom:link href="https://didinele.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Feb 2023 19:28:24 +0200</lastBuildDate><atom:link href="https://didinele.me/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A journey through code optimization (and highschool math)</title>
       <link>https://didinele.me/blog/math-journey/</link>
@@ -15,7 +15,6 @@
       <description>Introduction At the time of writing this, I&amp;rsquo;m a highschool student. With the way our school system is laid out, I end up doing a lot of math - more so than computer science - and lately I&amp;rsquo;ve been very passionate about it.
 Anyways, our story begins on the 5th of February, 2023. I was working on a Discord bot for ChatSift, responsible for some sort of leveling system - users would gain XP for sending messages, and crossing certain thresholds would cause you to level up.</description>
     </item>
-    
     
   </channel>
 </rss>

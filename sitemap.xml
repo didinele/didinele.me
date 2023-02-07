@@ -2,14 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://didinele.me/categories/</loc>
+    <loc>https://didinele.me/blog/math-journey/</loc>
+    <lastmod>2023-02-06T19:28:24+02:00</lastmod>
+  </url><url>
+    <loc>https://didinele.me/tags/algorithms/</loc>
+    <lastmod>2023-02-06T19:28:24+02:00</lastmod>
+  </url><url>
+    <loc>https://didinele.me/blog/</loc>
+    <lastmod>2023-02-06T19:28:24+02:00</lastmod>
   </url><url>
     <loc>https://didinele.me/</loc>
+    <lastmod>2023-02-06T19:28:24+02:00</lastmod>
+  </url><url>
+    <loc>https://didinele.me/tags/math/</loc>
+    <lastmod>2023-02-06T19:28:24+02:00</lastmod>
+  </url><url>
+    <loc>https://didinele.me/tags/optimization/</loc>
+    <lastmod>2023-02-06T19:28:24+02:00</lastmod>
+  </url><url>
+    <loc>https://didinele.me/tags/programming/</loc>
+    <lastmod>2023-02-06T19:28:24+02:00</lastmod>
+  </url><url>
+    <loc>https://didinele.me/tags/</loc>
+    <lastmod>2023-02-06T19:28:24+02:00</lastmod>
+  </url><url>
+    <loc>https://didinele.me/categories/</loc>
   </url><url>
     <loc>https://didinele.me/search/</loc>
   </url><url>
     <loc>https://didinele.me/series/</loc>
-  </url><url>
-    <loc>https://didinele.me/tags/</loc>
   </url>
 </urlset>
