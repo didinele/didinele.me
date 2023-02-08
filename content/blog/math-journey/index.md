@@ -181,14 +181,14 @@ $$
 `g` written out as a recurring series is $a_x = a_{(x - 1)} + x - 1$, where $a_1 = 0$ and $x > 1$.
 
 Our first few terms are: `0, 1, 3, 6, 10, 15`. I plugged this into [oeis], and wouldn't ya know it,
-this is the [A000217 sequence][A000217], which **does** have a closed-form formula: $x * (2 * x - 1)$
+this is the [A000217 sequence][A000217], which gets us this closed-form formula: $\frac{n * (n - 1)}{2}$
 
 Plugging this back into our original function, we have:
 
 $$
 n, m \in \mathbb{N*} \newline
 f: \mathbb{N*} \rightarrow \mathbb{N*} \newline
-f(x) = n + x * m * (2 * x - 1)
+f(x) = n + m * \frac{n * (n - 1)}{2}
 $$
 
 and in TypeScript land:
@@ -196,7 +196,7 @@ and in TypeScript land:
 ```ts
 export function calculateRequiredXp(settings: GuildSettings, level: number): number {
 	const { requiredXpBase, requiredXpMultiplier } = settings;
-	return requiredXpBase + level * requiredXpMultiplier * (2 * level - 1);
+	return requiredXpBase + (requiredXpMultiplier * (level * (level - 1))) / 2;
 }
 ```
 
